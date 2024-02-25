@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    background-color: #FFD1DC;
+    margin: 15px;
+    font-family: cursive;
+}
+
+a {
+    color: #EC5800;
+    text-decoration: dashed;
+}
+
+p {
+    background-color: #CBC3E3;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* or space-between */
+    height: 100vh;
+    /* Use the full height of the viewport */
+}
+
+.hidden {
+    display: none;
+}
+
+.theme-one {
+    height: 100px;
+    width: 300px;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+    background-color: #CBC3E3;
+}
+
+
+/* header */
+.header-title {
+    margin: 50px;
+    color: #CBC3E3;
+}
+
+
+.intro-header {
+    padding-bottom: 25px;
+}
+
+.intro-paragraph {
+    margin: 15px;
+}
+
+.intro-image {
+    height: 500px;
+}
+
+
+/* duck */
+
+.ducks {
+    margin: 25px;
+}
+
+.ducks-paragraph {
+    margin-top: 15px;
+}
+
+.duck-image {
+    margin: 15px;
+    height: 500px;
+}
+
+/* tulips */
+.tulips {
+    margin: 25px;
+}
+
+.tulips-paragraph {
+    margin: 15px;
+}
+
+.tulips-image {
+    height: 500px;
+    margin: 15px;
+}
+
+/* love */
+.love {
+    margin: 25px;
+}
+
+.love-paragraph {
+    margin: 15px;
+}
+
+.loveImage {
+    margin: 25px;
+}
